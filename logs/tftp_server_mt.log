@@ -1,0 +1,57 @@
+[2025-10-22 00:03:16] [INFO] Multi-threaded TFTP server started successfully, waiting for client connections...
+[2025-10-22 00:03:49] [INFO] Received Ctrl+C, shutting down server...
+[2025-10-22 00:03:56] [INFO] Multi-threaded TFTP server started successfully, waiting for client connections...
+[2025-10-22 00:04:33] [INFO] Created new thread for client 127.0.0.1:53460, opcode: 1
+[2025-10-22 00:04:33] [INFO] Thread 2116: Started handling client request, opcode: 1
+[2025-10-22 00:04:33] [INFO] Thread 2116: Client 127.0.0.1:53460 requests download file: test_concurrent.txt, mode: 
+[2025-10-22 00:04:33] [INFO] Thread 2116: File transfer completed for test_concurrent.txt
+[2025-10-22 00:04:33] [INFO] Thread 2116: Finished handling client request
+[2025-10-22 00:04:56] [INFO] Multi-threaded TFTP server started successfully, waiting for client connections...
+[2025-10-22 00:05:10] [INFO] Created new thread for client 127.0.0.1:59619, opcode: 1
+[2025-10-22 00:05:10] [INFO] Thread 4124: Started handling client request, opcode: 1
+[2025-10-22 00:05:10] [INFO] Thread 4124: Client 127.0.0.1:59619 requests download file: test_concurrent.txt, mode: 
+[2025-10-22 00:05:10] [INFO] Thread 4124: File transfer completed for test_concurrent.txt
+[2025-10-22 00:05:10] [INFO] Thread 4124: Finished handling client request
+[2025-10-22 00:05:28] [INFO] Created new thread for client 127.0.0.1:54991, opcode: 1
+[2025-10-22 00:05:28] [INFO] Thread 35672: Started handling client request, opcode: 1
+[2025-10-22 00:05:28] [INFO] Thread 35672: Client 127.0.0.1:54991 requests download file: test.txt, mode: urrent.txt
+[2025-10-22 00:05:28] [INFO] Thread 35672: File transfer completed for test.txt
+[2025-10-22 00:05:28] [INFO] Thread 35672: Finished handling client request
+[2025-10-22 00:05:57] [INFO] Created new thread for client 127.0.0.1:57971, opcode: 2
+[2025-10-22 00:05:57] [INFO] Thread 34376: Started handling client request, opcode: 2
+[2025-10-22 00:05:57] [INFO] Thread 34376: Client 127.0.0.1:57971 requests upload file: uploaded_file1.txt, mode: 
+[2025-10-22 00:05:57] [WARNING] Received unexpected packet type 3 from 127.0.0.1:57971
+[2025-10-22 00:11:58] [INFO] Multi-threaded TFTP server started successfully, waiting for client connections...
+[2025-10-22 00:12:02] [INFO] Created new thread for client 127.0.0.1:52463, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35864: Started handling client request, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35864: Client 127.0.0.1:52463 requests download file: test1.txt, mode: 
+[2025-10-22 00:12:02] [INFO] Thread 35864: File transfer completed for test1.txt
+[2025-10-22 00:12:02] [INFO] Thread 35864: Finished handling client request
+[2025-10-22 00:12:02] [INFO] Created new thread for client 127.0.0.1:52465, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35884: Started handling client request, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35884: Client 127.0.0.1:52465 requests download file: test2.txt, mode: 
+[2025-10-22 00:12:02] [INFO] Thread 35884: File transfer completed for test2.txt
+[2025-10-22 00:12:02] [INFO] Thread 35884: Finished handling client request
+[2025-10-22 00:12:02] [INFO] Created new thread for client 127.0.0.1:52467, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35900: Started handling client request, opcode: 1
+[2025-10-22 00:12:02] [INFO] Thread 35900: Client 127.0.0.1:52467 requests download file: test3.txt, mode: 
+[2025-10-22 00:12:02] [INFO] Thread 35900: File transfer completed for test3.txt
+[2025-10-22 00:12:02] [INFO] Thread 35900: Finished handling client request
+[2025-10-22 00:12:05] [INFO] Created new thread for client 127.0.0.1:52469, opcode: 2
+[2025-10-22 00:12:05] [INFO] Thread 36128: Started handling client request, opcode: 2
+[2025-10-22 00:12:05] [INFO] Thread 36128: Client 127.0.0.1:52469 requests upload file: uploaded1.txt, mode: 
+[2025-10-22 00:12:05] [WARNING] Received unexpected packet type 3 from 127.0.0.1:52469
+[2025-10-22 00:12:05] [INFO] Created new thread for client 127.0.0.1:52471, opcode: 2
+[2025-10-22 00:12:05] [INFO] Thread 36152: Started handling client request, opcode: 2
+[2025-10-22 00:12:05] [INFO] Thread 36152: Client 127.0.0.1:52471 requests upload file: uploaded3.txt, mode: upload test 1 
+
+[2025-10-22 00:12:05] [ERROR] Failed to receive data: 10054
+[2025-10-22 00:12:05] [INFO] Thread 36128: File upload completed for uploaded1.txt
+[2025-10-22 00:12:05] [INFO] Thread 36128: Finished handling client request
+[2025-10-22 00:12:06] [WARNING] Received unexpected packet type 3 from 127.0.0.1:52471
+[2025-10-22 00:12:12] [INFO] Created new thread for client 127.0.0.1:52470, opcode: 2
+[2025-10-22 00:12:12] [INFO] Thread 36508: Started handling client request, opcode: 2
+[2025-10-22 00:12:12] [INFO] Thread 36508: Client 127.0.0.1:52470 requests upload file: uploaded2.txt, mode: upload test 3 
+
+[2025-10-22 00:12:12] [INFO] Thread 36152: Client reported error: 无法打开文件进行读取
+[2025-10-22 00:12:12] [INFO] Thread 36152: Finished handling client request

@@ -1,2 +1,0 @@
-Hello, this is a test file for TFTP server!
-You can download this file using TFTP client.

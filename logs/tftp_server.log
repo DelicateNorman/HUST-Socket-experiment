@@ -23,3 +23,9 @@
 [2025-10-21 20:15:34] [DEBUG] Sent data packet, block number: 1, size: 92 bytes
 [2025-10-21 20:15:34] [DEBUG] Received ACK, block number: 1
 [2025-10-21 20:15:34] [INFO] File transfer complete: test.txt
+[2025-10-21 23:57:47] [INFO] TFTP server started successfully, waiting for client connections...
+[2025-10-22 00:04:33] [DEBUG] Sent data packet, block number: 1, size: 100 bytes
+[2025-10-22 00:05:10] [DEBUG] Sent data packet, block number: 1, size: 100 bytes
+[2025-10-22 00:05:28] [DEBUG] Sent data packet, block number: 1, size: 92 bytes
+[2025-10-22 00:05:57] [DEBUG] Sent ACK packet, block number: 0
+[2025-10-22 00:05:57] [INFO] Sent error packet: Unknown transfer ID
