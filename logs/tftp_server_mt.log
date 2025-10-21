@@ -55,3 +55,4 @@
 
 [2025-10-22 00:12:12] [INFO] Thread 36152: Client reported error: 无法打开文件进行读取
 [2025-10-22 00:12:12] [INFO] Thread 36152: Finished handling client request
+[2025-10-22 00:16:36] [INFO] Multi-threaded TFTP server started successfully, waiting for client connections...

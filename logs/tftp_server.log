@@ -29,3 +29,12 @@
 [2025-10-22 00:05:28] [DEBUG] Sent data packet, block number: 1, size: 92 bytes
 [2025-10-22 00:05:57] [DEBUG] Sent ACK packet, block number: 0
 [2025-10-22 00:05:57] [INFO] Sent error packet: Unknown transfer ID
+[2025-10-22 00:12:02] [DEBUG] Sent data packet, block number: 1, size: 55 bytes
+[2025-10-22 00:12:02] [DEBUG] Sent data packet, block number: 1, size: 55 bytes
+[2025-10-22 00:12:02] [DEBUG] Sent data packet, block number: 1, size: 55 bytes
+[2025-10-22 00:12:05] [DEBUG] Sent ACK packet, block number: 0
+[2025-10-22 00:12:05] [INFO] Sent error packet: Unknown transfer ID
+[2025-10-22 00:12:05] [DEBUG] Sent ACK packet, block number: 0
+[2025-10-22 00:12:05] [DEBUG] Sent ACK packet, block number: 1
+[2025-10-22 00:12:06] [INFO] Sent error packet: Unknown transfer ID
+[2025-10-22 00:12:12] [DEBUG] Sent ACK packet, block number: 0
