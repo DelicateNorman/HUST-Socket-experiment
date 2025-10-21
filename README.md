@@ -209,25 +209,3 @@ tftp -i 127.0.0.1 put local_file.txt remote_file.txt
 
 计算机网络实验项目 - TFTP服务器实现
 
-# 1) 编译
-.\compile.bat
-
-# 2) 新窗口启动服务器（便于观察日志）
-Start-Process powershell -ArgumentList '-NoExit','-Command','cd "D:\计算机网络\计算机网络实验\project"; .\tftp_server.exe'
-
-# 3) 下载测试（GET）
-tftp -i 127.0.0.1 get test.txt downloaded_test.txt
-Get-Content -TotalCount 5 .\downloaded_test.txt
-
-# 4) 上传测试（PUT）
-Set-Content -Path my_upload.txt -Value "This is my upload file at $(Get-Date)."
-tftp -i 127.0.0.1 put my_upload.txt uploaded.txt
-Get-Item .\tftp_root\uploaded.txt | Select-Object FullName,Length
-
-# 5) 查看日志尾部（吞吐量、ACK、完成记录）
-Get-Content -Tail 20 .\logs\tftp_server.log
-
-# 6) 停止服务器（如果要在当前窗口停，转到服务器窗口 Ctrl+C；或用下面的命令查找并结束）
-Get-Process | Where-Object { $_.Path -like "*tftp_server.exe" } | Select-Object Id,Path
-# 假设上条返回的 Id 为 30268，执行：
-Stop-Process -Id 30268
