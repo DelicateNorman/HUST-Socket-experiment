@@ -1,0 +1,25 @@
+[2025-10-21 20:11:29] [INFO] Client connection: 127.0.0.1:62310, opcode: 2
+[2025-10-21 20:11:29] [INFO] Client 127.0.0.1:62310 requests to upload file: sample_upload.txt, mode: 
+[2025-10-21 20:11:29] [ERROR] File already exists: tftp_root/sample_upload.txt
+[2025-10-21 20:11:29] [INFO] Sent error packet: File already exists
+[2025-10-21 20:11:31] [INFO] Client connection: 127.0.0.1:59894, opcode: 2
+[2025-10-21 20:11:31] [INFO] Client 127.0.0.1:59894 requests to upload file: sample_upload.txt, mode: 
+[2025-10-21 20:11:31] [ERROR] File already exists: tftp_root/sample_upload.txt
+[2025-10-21 20:11:31] [INFO] Sent error packet: File already exists
+[2025-10-21 20:11:34] [INFO] Client connection: 127.0.0.1:55305, opcode: 2
+[2025-10-21 20:11:34] [INFO] Client 127.0.0.1:55305 requests to upload file: sample_upload.txt, mode: 
+[2025-10-21 20:11:34] [ERROR] File already exists: tftp_root/sample_upload.txt
+[2025-10-21 20:11:34] [INFO] Sent error packet: File already exists
+[2025-10-21 20:13:15] [INFO] TFTP server started successfully, waiting for client connections...
+[2025-10-21 20:14:55] [INFO] TFTP server started successfully, waiting for client connections...
+[2025-10-21 20:15:11] [INFO] Client connection: 127.0.0.1:54467, opcode: 2
+[2025-10-21 20:15:11] [INFO] Client 127.0.0.1:54467 requests to upload file: aaai.txt, mode: 
+[2025-10-21 20:15:11] [DEBUG] Sent ACK packet, block number: 0
+[2025-10-21 20:15:11] [DEBUG] Sent ACK packet, block number: 1
+[2025-10-21 20:15:11] [DEBUG] Received data packet, block number: 1, size: 21 bytes
+[2025-10-21 20:15:11] [INFO] File upload complete: aaai.txt
+[2025-10-21 20:15:34] [INFO] Client connection: 127.0.0.1:51356, opcode: 1
+[2025-10-21 20:15:34] [INFO] Client 127.0.0.1:51356 requests download file: test.txt, mode: 
+[2025-10-21 20:15:34] [DEBUG] Sent data packet, block number: 1, size: 92 bytes
+[2025-10-21 20:15:34] [DEBUG] Received ACK, block number: 1
+[2025-10-21 20:15:34] [INFO] File transfer complete: test.txt
